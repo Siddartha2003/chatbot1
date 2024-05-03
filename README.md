@@ -1,65 +1,61 @@
-# Python Chatbot
-Hello, and welcome to Python Chatbot! This program was created by Kapilesh Pennichetty and Sanjay Balasubramanian. Through user interaction, it can do the following:
+# Python Chatbot Overview
 
-- Retrieve the summary of a Wikipedia article
-- Find the weather of any location, automatically by finding the user's location using their external IP address*, or manually by prompting the user to enter a city
-- Play an Interactive Story, where the user decides how the character responds to different scenarios
+Welcome to Python Chatbot! Crafted by Kapilesh Pennichetty and Sanjay Balasubramanian, this program offers an interactive experience with the following features:
 
-*Please note that if you are going to use the automatic IP address function, you must run it on a local machine for accurate results. This is because the program needs your IP address to accurately find your location, and then it uses your location to retrieve the weather. Also, please disable your VPN or Internet Proxy for accurate results.
+- **Wikipedia Article Summaries**: Fetch concise summaries of Wikipedia articles.
+- **Weather Information**: Retrieve weather details for any location, either by auto-detecting the user's location via their external IP address or through manual input of a city name.
+- **Interactive Storytelling**: Engage in an Interactive Story, where you, the user, dictate the character's responses to various scenarios.
 
-Also, please note that you will need to have Python 3.7 or newer to run this program. You can install Python for your operating system here: https://www.python.org/
+**Note**: If opting for automatic location detection, please execute the program locally for accurate results. Disabling VPN or Internet Proxy is recommended for precise location determination.
 
-To operate the chatbot, you must first install these dependencies for the chatbot to be functional:
+Ensure you have Python 3.7 or later installed on your system. If not, download and install Python from [here](https://www.python.org/).
 
-- Wikipedia API
+## Dependencies Installation:
 
-  - For Windows users:
-    - Open the command prompt and type:
+Before running the chatbot, install the required dependencies:
+
+- **Wikipedia API**:
+  - For Windows:
     ```shell
     pip install wikipedia-api
     ```
-  - For POSIX (including macOS and Linux) users:
-    - Open the terminal and type:
+  - For POSIX systems:
     ```shell
     $ python3 -m pip install wikipedia-api
     ```
-  
-- PyOWM
 
-  - For Windows users:
-    - Open the command prompt and type:
+- **PyOWM**:
+  - For Windows:
     ```shell
     pip install pyowm
     ```
-  - For POSIX (including macOS and Linux) users:
-    - Open the terminal and type:
+  - For POSIX systems:
     ```shell
     $ python3 -m pip install pyowm
     ```
-  
-- IPStack for Python (Geo Location Library)
 
-  - For Windows users:
-    - Open the command prompt and type:
+- **IPStack for Python (Geo Location Library)**:
+  - For Windows:
     ```shell
     pip install ipstack
     ```
-  - For POSIX (including macOS and Linux) users:
-    - Open the terminal and type:
+  - For POSIX systems:
     ```shell
     $ python3 -m pip install ipstack
     ```
-    
-Then, download this repository, and run the "main.py" file to start interacting with the chatbot!
 
-Thank you for using Python Chatbot! We hope you enjoy using it!
+Download the repository and execute "main.py" to start interacting with the chatbot!
 
-# Sources
-**Special thanks to Mr. Bailey Hulsey for his contributions and for sharing his knowledge of computer science to noobs like us!**
+Thank you for choosing Python Chatbot! We trust you'll enjoy the experience!
 
-- Wikipedia API and Documentation: https://github.com/martin-majlis/Wikipedia-API
-- Wikipedia: https://wikipedia.org
-- OpenWeatherMap Raw API and Documentation: https://openweathermap.org/current
-- OpenWeatherMap Python Library and Documentation: https://github.com/csparpa/pyowm
-- ipstack Raw API and Documentation: https://ipstack.com/documentation
-- ipstack Python Library and Documentation: https://github.com/nathan-fiscaletti/ipstackgeo-py
+# Acknowledgments
+
+A heartfelt thanks to Mr. Bailey Hulsey for generously contributing his expertise in computer science and guiding us along this journey!
+
+- **References**:
+  - Wikipedia API and Documentation: [GitHub - Wikipedia API](https://github.com/martin-majlis/Wikipedia-API)
+  - Wikipedia: [Wikipedia](https://wikipedia.org)
+  - OpenWeatherMap Raw API and Documentation: [OpenWeatherMap - Current Weather](https://openweathermap.org/current)
+  - OpenWeatherMap Python Library and Documentation: [GitHub - PyOWM](https://github.com/csparpa/pyowm)
+  - ipstack Raw API and Documentation: [ipstack - Documentation](https://ipstack.com/documentation)
+  - ipstack Python Library and Documentation: [GitHub - ipstackgeo-py](https://github.com/nathan-fiscaletti/ipstackgeo-py
